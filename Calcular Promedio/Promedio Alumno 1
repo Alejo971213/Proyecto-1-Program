@@ -1,0 +1,22 @@
+//Lenguaje C
+int main(int argc, char *argv[]) {  
+setlocale(LC_ALL, "Spanish"); 
+float nota1=0;  
+float nota2=0;   
+float nota3=0;    
+float media=0;
+printf("Ingrese nota 1: ");  
+scanf("%f",&nota1);
+printf("Ingrese nota 2: ");  
+scanf("%f",&nota2);
+printf("Ingrese nota 3: ");  
+scanf("%f",&nota3);
+promedio = (nota1+nota2+nota3)/3; 
+if(promedio>=6){
+printf("Alumno aprobado.\n");
+}
+else{
+printf("Alumno reprobado.\n");
+}
+printf("Promedio del alumno es: %f",media);
+}
